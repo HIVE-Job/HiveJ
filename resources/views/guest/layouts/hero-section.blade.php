@@ -1,4 +1,4 @@
-<section class="home-section section-hero overlay bg-image" style="background-image: url('/user/images/hero_2.jpg');" id="home-section">
+<section class="home-section section-hero overlay bg-image" style="background-image: url('/user/images/hero_1.jpg');" id="home-section">
   <div class="container">
     <div class="row align-items-center justify-content-center">
       <div class="col-md-12">
