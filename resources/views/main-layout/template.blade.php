@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Free-Template.co" />
-    <link rel="shortcut icon" href="ftco-32x32.png" />
+    <link rel="shortcut icon" href="{{ asset('user/images/hive.png') }}" />
 
     <link rel="stylesheet" href="{{ asset ('/user/css/custom-bs.css') }}">
     <link rel="stylesheet" href="{{ asset ('/user/css/jquery.fancybox.min.css') }}">

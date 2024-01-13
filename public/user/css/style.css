@@ -19,7 +19,16 @@
 .site-navbar .site-logo {
     position: absolute;
     left: 5%;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #333;
+    text-shadow: 2px 2px 30px #ffffff;
 }
+
+
+
+
 @media (max-width: 767.98px) {
     .site-navbar .site-logo {
         position: relative;
@@ -166,7 +175,7 @@
 }
 .site-navbar .site-navigation .site-menu .has-children .dropdown a.active {
     background: #ebeef0;
-    color: #89ba16;
+    color: #e2ff04;
 }
 .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
     list-style: none;
@@ -206,7 +215,7 @@
     > li.has-children
     > a.active {
     background: #ebeef0;
-    color: #89ba16;
+    color: hsl(67, 100%, 50%);
 }
 .site-navbar
     .site-navigation
@@ -285,7 +294,7 @@
 }
 .site-navbar .site-navigation .site-menu.site-menu-dark > li > a:hover,
 .site-navbar .site-navigation .site-menu.site-menu-dark > li > a.active {
-    color: #89ba16;
+    color: hsl(60, 100%, 51%);
     position: relative;
 }
 .site-navbar .site-navigation .site-menu.site-menu-dark > li > a:hover:after,
@@ -377,7 +386,7 @@
     color: #212529;
 }
 .site-mobile-menu .site-nav-wrap a:hover {
-    color: #89ba16;
+    color: hsl(61, 100%, 50%);
     text-decoration: none;
 }
 .site-mobile-menu .site-nav-wrap li {
@@ -540,7 +549,7 @@
 }
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:after {
     height: 2px;
-    background: #89ba16;
+    background: hsl(63, 100%, 52%);
     content: "";
     position: absolute;
     bottom: 0;
@@ -610,7 +619,7 @@ h4 {
     padding-bottom: 7rem;
     position: relative;
     z-index: 2;
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: rgb(255, 255, 255);
 }
 
 @media (max-width: 991.98px) {
@@ -811,7 +820,7 @@ h4 {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(137, 186, 22, 0.9);
+    background: #fff71ce6;
     z-index: 1;
 }
 .bg-image.overlay-blue > .container {
@@ -999,7 +1008,7 @@ h4 {
     transition: 0.3s all ease;
 }
 .job-listings .job-listing a:hover {
-    border-left: 7px solid #89ba16;
+    border-left: 7px solid hsl(55, 100%, 58%);
 }
 .job-listings .job-listing .job-listing-logo {
     -webkit-box-flex: 0;
@@ -1237,13 +1246,13 @@ h4 {
     color: #fff;
 }
 .btn.btn-primary:hover {
-    background: #90c317;
-    border-color: #90c317;
+    background: #000000;
+    border-color: #000000;
 }
 
 .btn.btn-primary-cs {
     color: #fff;
-    background: #90c317;
+    background: #f0ff1b;
 }
 
 .btn.btn-white-cs {
@@ -1256,8 +1265,8 @@ h4 {
     background: red;
 }
 .btn.btn-primary-cs:hover {
-    background: #89ba16;
-    border-color: #90c317;
+    background: #000000;
+    border-color: #000000;
 }
 
 .btn.btn-outline-white {
@@ -1272,11 +1281,11 @@ h4 {
 }
 
 .btn.btn-outline-primary {
-    color: #89ba16;
+    color: #000000;
 }
 .btn.btn-outline-primary:hover {
     color: #fff;
-    background: #89ba16;
+    background: #000000;
 }
 
 .custom-pagination a {

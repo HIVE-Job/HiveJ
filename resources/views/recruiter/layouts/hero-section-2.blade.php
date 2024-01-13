@@ -1,4 +1,4 @@
-<section class="section-hero overlay inner-page bg-image" style="background-image: url('/user/images/hero_3.jpeg');" id="home-section">
+<section class="section-hero overlay inner-page bg-image" style="background-image: url('/user/images/hero_2.jpeg');" id="home-section">
     <div class="container">
         <div class="row">
             <div class="col-md-7">
