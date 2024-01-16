@@ -8,7 +8,7 @@
     <div class="row mb-5 justify-content-center">
       <div class="col-md-7 text-center">
         <h2 class="section-title mb-2 text-white">HIVE Site Statistics</h2>
-        <p class="lead text-white">Here is the number of jobs, applicants, accepted applications, and partners who have joined AquaTani.</p>
+        <p class="lead text-white">Here is the number of jobs, applicants, accepted applications, and partners who have joined Hive.</p>
       </div>
     </div>
     <div class="row pb-0 block__19738 section-counter">
