@@ -44,8 +44,6 @@
                border-radius: 5px;
                cursor: pointer;"
         onclick="window.open('{{ asset('assets/cvs/' . $application->applicant->cv) }}', '_blank')">Open CV</button>
-
-
                 </td>
                 <td>
                   @if($application->application_status == "accepted")
@@ -62,7 +60,7 @@
                     @method('PUT')
                     <input type="hidden" name="application_status" value="rejected">
                     <input type="hidden" name="receiver_id" value="{{$application->applicant->id}}">
-                    <button type="submit" class="btn btn-block btn-danger-cs btn-md" onclick="return confirm('Are you sure you want to reject this application?')" id="rejectButton"><i class="fa fa-times-circle"></i> Reject</button>
+                    <button type="submit" class="btn btn-block btn-danger-cs btn-md" onclick="return confirm('Are you sure you want to reject this application?')" id="rejectButton" @if($application->application_status == "rejected") disabled @endif><i class="fa fa-times-circle"></i> Reject</button>
                   </form>
                 </td>
                 <td class="text-start">
@@ -71,7 +69,7 @@
                     @method('PUT')
                     <input type="hidden" name="application_status" value="accepted">
                     <input type="hidden" name="receiver_id" value="{{$application->applicant->id}}">
-                    <button type="submit" class="btn btn-block btn-primary-cs btn-md " onclick="return confirm('Are you sure you want to accept this application?')" id="acceptButton"><i class="fa fa-check-circle"></i> Accept</button>
+                    <button type="submit" class="btn btn-block btn-primary-cs btn-md " onclick="return confirm('Are you sure you want to accept this application?')" id="acceptButton" @if($application->application_status == "accepted") disabled @endif><i class="fa fa-check-circle"></i> Accept</button>
                   </form>
                 </td>
                 <td class="text-start">
@@ -86,6 +84,7 @@
     </div>
   </section>
 @endsection
+
 
 
  
