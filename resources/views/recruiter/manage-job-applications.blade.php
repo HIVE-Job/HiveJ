@@ -62,7 +62,7 @@
                     @method('PUT')
                     <input type="hidden" name="application_status" value="rejected">
                     <input type="hidden" name="receiver_id" value="{{$application->applicant->id}}">
-                    <button type="submit" class="btn btn-block btn-danger-cs btn-md" onclick="return confirm('Are you sure you want to reject this application?')"><i class="fa fa-times-circle"></i> Reject</button>
+                    <button type="submit" class="btn btn-block btn-danger-cs btn-md" onclick="return confirm('Are you sure you want to reject this application?')" id="rejectButton"><i class="fa fa-times-circle"></i> Reject</button>
                   </form>
                 </td>
                 <td class="text-start">
@@ -71,11 +71,11 @@
                     @method('PUT')
                     <input type="hidden" name="application_status" value="accepted">
                     <input type="hidden" name="receiver_id" value="{{$application->applicant->id}}">
-                    <button type="submit" class="btn btn-block btn-primary-cs btn-md" onclick="return confirm('Are you sure you want to accept this application?')"><i class="fa fa-check-circle"></i> Accept</button>
+                    <button type="submit" class="btn btn-block btn-primary-cs btn-md " onclick="return confirm('Are you sure you want to accept this application?')" id="acceptButton"><i class="fa fa-check-circle"></i> Accept</button>
                   </form>
                 </td>
                 <td class="text-start">
-                  <a href="{{route('r.application-detail', ['id' => $application->id ])}}" class="btn btn-secondary"><i class="fa fa-edit"></i>&nbsp;Manage</a>
+                  <a href="{{route('r.application-detail', ['id' => $application->id ])}}" class="btn btn-secondary btn-lg"><i class="fa fa-edit"></i>&nbsp;Manage</a>
                 </td>
               </tr>
               @php $i++; @endphp
@@ -86,3 +86,6 @@
     </div>
   </section>
 @endsection
+
+
+ 

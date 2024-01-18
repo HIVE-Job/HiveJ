@@ -152,7 +152,7 @@ class UserController extends Controller
   public function delete_application($id)
   {
     Application::where('id', $id)->delete();
-    return redirect('/user/applications')->with('status', "Application has been deleted.");
+    return redirect('/user/application')->with('status', "Application has been deleted.");
   }
 
   public function update_profile(Request $request)
