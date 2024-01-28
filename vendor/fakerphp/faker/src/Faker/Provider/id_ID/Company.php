@@ -17,14 +17,15 @@ class Company extends \Faker\Provider\Company
     protected static $companyPrefix = ['PT', 'Fa', 'CV', 'UD', 'PJ', 'PD', 'Perum', 'Yayasan'];
 
     /**
-
+     * @see https://www.amesbostonhotel.com/macam-macam-profesi-pekerjaan/
+     * @see https://dukcapil.kedirikab.go.id/artikel/Jenis-Pekerjaan_ID10.html
      */
     protected static $jobTitleFormat = [
         'Akuntan', 'Apoteker', 'Arsitek', 'Atlet', 'Belum / Tidak Bekerja', 'Biarawati', 'Bidan', 'Buruh Harian Lepas',
-        'Buruh Nelayan / fulltime', 'Buruh Peternakan', 'Buruh Tani / Perkebunan', 'Desainer', 'Dokter', 'Dosen',
+        'Buruh Nelayan / Perikanan', 'Buruh Peternakan', 'Buruh Tani / Perkebunan', 'Desainer', 'Dokter', 'Dosen',
         'Guru', 'Hakim', 'Imam Masjid', 'Industri', 'Jaksa', 'Juru Masak', 'Karyawan BUMD', 'Karyawan BUMN',
         'Karyawan Honorer', 'Karyawan Swasta', 'Kepala Desa', 'Kepolisian RI (POLRI)', 'Kondektur', 'Konstruksi',
-        'Konsultan', 'Masinis', 'Mekanik', 'Mengurus Rumah Tangga', 'Montir', 'Nahkoda', 'Nelayan / fulltime',
+        'Konsultan', 'Masinis', 'Mekanik', 'Mengurus Rumah Tangga', 'Montir', 'Nahkoda', 'Nelayan / Perikanan',
         'Notaris', 'Paraji', 'Pastor', 'Pedagang', 'Pegawai Negeri Sipil (PNS)', 'Pelajar / Mahasiswa', 'Pelaut',
         'Pemandu Wisata', 'Pembantu Rumah Tangga', 'Penambang', 'Penata Busana', 'Penata Rambut', 'Penata Rias',
         'Pendeta', 'Peneliti', 'Penerjemah', 'Pengacara', 'Pensiunan', 'Penulis', 'Penyelam', 'Penyiar Radio',

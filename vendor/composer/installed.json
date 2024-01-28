@@ -446,17 +446,17 @@
         },
         {
             "name": "fakerphp/faker",
-            "version": "v1.23.0",
-            "version_normalized": "1.23.0.0",
+            "version": "v1.23.1",
+            "version_normalized": "1.23.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FakerPHP/Faker.git",
-                "reference": "e3daa170d00fde61ea7719ef47bb09bb8f1d9b01"
+                "reference": "bfb4fe148adbf78eff521199619b93a52ae3554b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/e3daa170d00fde61ea7719ef47bb09bb8f1d9b01",
-                "reference": "e3daa170d00fde61ea7719ef47bb09bb8f1d9b01",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/bfb4fe148adbf78eff521199619b93a52ae3554b",
+                "reference": "bfb4fe148adbf78eff521199619b93a52ae3554b",
                 "shasum": ""
             },
             "require": {
@@ -481,13 +481,8 @@
                 "ext-iconv": "Required by Faker\\Provider\\ru_RU\\Text::realText() for generating real Russian text.",
                 "ext-mbstring": "Required for multibyte Unicode string functionality."
             },
-            "time": "2023-06-12T08:44:38+00:00",
+            "time": "2024-01-02T13:46:09+00:00",
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "v1.21-dev"
-                }
-            },
             "installation-source": "dist",
             "autoload": {
                 "psr-4": {
@@ -511,7 +506,7 @@
             ],
             "support": {
                 "issues": "https://github.com/FakerPHP/Faker/issues",
-                "source": "https://github.com/FakerPHP/Faker/tree/v1.23.0"
+                "source": "https://github.com/FakerPHP/Faker/tree/v1.23.1"
             },
             "install-path": "../fakerphp/faker"
         },
@@ -1267,6 +1262,85 @@
                 "source": "https://github.com/laravel/breeze"
             },
             "install-path": "../laravel/breeze"
+        },
+        {
+            "name": "laravel/dusk",
+            "version": "v7.12.1",
+            "version_normalized": "7.12.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/dusk.git",
+                "reference": "e7c2509034753dd4b2339b082884eef357673bf7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/dusk/zipball/e7c2509034753dd4b2339b082884eef357673bf7",
+                "reference": "e7c2509034753dd4b2339b082884eef357673bf7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-zip": "*",
+                "guzzlehttp/guzzle": "^7.2",
+                "illuminate/console": "^9.0|^10.0",
+                "illuminate/support": "^9.0|^10.0",
+                "nesbot/carbon": "^2.0",
+                "php": "^8.0",
+                "php-webdriver/webdriver": "^1.9.0",
+                "symfony/console": "^6.0",
+                "symfony/finder": "^6.0",
+                "symfony/process": "^6.0",
+                "vlucas/phpdotenv": "^5.2"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.4.2",
+                "orchestra/testbench": "^7.33|^8.13",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^9.5.10|^10.0.1",
+                "psy/psysh": "^0.11.12"
+            },
+            "suggest": {
+                "ext-pcntl": "Used to gracefully terminate Dusk when tests are running."
+            },
+            "time": "2024-01-03T22:54:48+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Dusk\\DuskServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Dusk\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel Dusk provides simple end-to-end testing and browser automation.",
+            "keywords": [
+                "laravel",
+                "testing",
+                "webdriver"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/dusk/issues",
+                "source": "https://github.com/laravel/dusk/tree/v7.12.1"
+            },
+            "install-path": "../laravel/dusk"
         },
         {
             "name": "laravel/framework",
@@ -3088,6 +3162,75 @@
                 "source": "https://github.com/phar-io/version/tree/3.2.1"
             },
             "install-path": "../phar-io/version"
+        },
+        {
+            "name": "php-webdriver/webdriver",
+            "version": "1.15.1",
+            "version_normalized": "1.15.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-webdriver/php-webdriver.git",
+                "reference": "cd52d9342c5aa738c2e75a67e47a1b6df97154e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-webdriver/php-webdriver/zipball/cd52d9342c5aa738c2e75a67e47a1b6df97154e8",
+                "reference": "cd52d9342c5aa738c2e75a67e47a1b6df97154e8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-zip": "*",
+                "php": "^7.3 || ^8.0",
+                "symfony/polyfill-mbstring": "^1.12",
+                "symfony/process": "^5.0 || ^6.0 || ^7.0"
+            },
+            "replace": {
+                "facebook/webdriver": "*"
+            },
+            "require-dev": {
+                "ergebnis/composer-normalize": "^2.20.0",
+                "ondram/ci-detector": "^4.0",
+                "php-coveralls/php-coveralls": "^2.4",
+                "php-mock/php-mock-phpunit": "^2.0",
+                "php-parallel-lint/php-parallel-lint": "^1.2",
+                "phpunit/phpunit": "^9.3",
+                "squizlabs/php_codesniffer": "^3.5",
+                "symfony/var-dumper": "^5.0 || ^6.0"
+            },
+            "suggest": {
+                "ext-SimpleXML": "For Firefox profile creation"
+            },
+            "time": "2023-10-20T12:21:20+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "lib/Exception/TimeoutException.php"
+                ],
+                "psr-4": {
+                    "Facebook\\WebDriver\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A PHP client for Selenium WebDriver. Previously facebook/webdriver.",
+            "homepage": "https://github.com/php-webdriver/php-webdriver",
+            "keywords": [
+                "Chromedriver",
+                "geckodriver",
+                "php",
+                "selenium",
+                "webdriver"
+            ],
+            "support": {
+                "issues": "https://github.com/php-webdriver/php-webdriver/issues",
+                "source": "https://github.com/php-webdriver/php-webdriver/tree/1.15.1"
+            },
+            "install-path": "../php-webdriver/webdriver"
         },
         {
             "name": "phpoption/phpoption",
@@ -8319,6 +8462,7 @@
         "filp/whoops",
         "hamcrest/hamcrest-php",
         "laravel/breeze",
+        "laravel/dusk",
         "laravel/pint",
         "laravel/sail",
         "mockery/mockery",
@@ -8326,6 +8470,7 @@
         "nunomaduro/collision",
         "phar-io/manifest",
         "phar-io/version",
+        "php-webdriver/webdriver",
         "phpunit/php-code-coverage",
         "phpunit/php-file-iterator",
         "phpunit/php-invoker",

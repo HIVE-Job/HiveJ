@@ -630,7 +630,7 @@ h4 {
 }
 
 .text-black {
-    color: #ffffff !important;
+    color: #000000 !important;
 }
 
 .home-section {
@@ -1252,7 +1252,7 @@ h4 {
 
 .btn.btn-primary-cs {
     color: #fff;
-    background: #000000;
+    background: #b89e9e;
 }
 
 .btn.btn-white-cs {
